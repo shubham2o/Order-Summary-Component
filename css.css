@@ -125,15 +125,14 @@
 
  .form {
          position: absolute;
-         bottom: -95px;
+         bottom: -170px;
  }
 
 
- .submit {
-         padding: 20px 60px 20px 60px;
+ .paymentbutton {
+         padding: 20px 60px;
          margin-left: 75px;
          font-size: 20px;
-         font-weight: bold;
          border-radius: 50px;
          background-color: blue;
          color: var(--white);
@@ -156,8 +155,31 @@
  }
 
 
- .submit:hover {
-         border: 5px solid navy;
+ .paymentbutton:hover {
+         border: 3px solid var(--black);
          animation: none;
          cursor: pointer;
+         font-weight: bold;
+         text-shadow: 1px 1px var(--white);
+         box-shadow: 8px 9px var(--black);
+ }
+
+
+ .cancelbutton {
+         padding: 18px 60px; 
+         margin-left: 75px;
+         font-size: 20px;
+         border-radius: 50px;
+         background-color: var(--gray);
+         color: var(--black);
+         border: 1px solid var(--graywhite);
+ }
+
+
+ .cancelbutton:hover {
+         font-weight: bold;
+         text-shadow: 1px 1px var(--black);
+         border: 1px solid var(--black);
+         cursor: pointer;
+         box-shadow: 8px 9px var(--black);
  }

@@ -1,5 +1,5 @@
  :root {
-         --white:##FFFFFF;
+         --white: #FFFFFF;
          --purple:#e6e6fa;
  }
 
@@ -35,13 +35,13 @@
 
  .content {
          position: absolute;
-         color: var(--white);
+         color: black;
          border: 5px solid black;
          border-radius: 50px;
          height: 680px;
          width: 459px;
          text-align: center;
-         background-color: var(--purple);
+         background-color: var(--white);
  }
 
 

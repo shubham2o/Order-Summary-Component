@@ -101,3 +101,22 @@
  .price p {
          font-size: 20px;
  }
+
+
+ .price a {
+         position: absolute;
+         right: 45px;
+         bottom: 35px;
+         font-size: 19px;
+         text-decoration: none;
+         color: navy;
+         font-weight: bold;
+ }
+
+ 
+ .price a:hover {
+         text-decoration: underline;
+ }
+ .price a:active {
+         color: red;
+ }

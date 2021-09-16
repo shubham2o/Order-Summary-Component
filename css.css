@@ -19,12 +19,12 @@
  .content {
          position: absolute;
          color: var(--white);
-         border: 5px double gray;
-         height: 420px;
-         width: 350px;
+         border: 6px double darkgray;
+         border-radius: 10px;
+         height: 680px;
+         width: 460px;
          text-align: center;
-         padding: 5px;
-         margin-top: 200px;
+         margin-top: 10px;
  }
 
 
@@ -33,14 +33,19 @@
  }
 
 
+ .svgone {
+         position: absolute;
+ }
+
+
+ .svgtwo {
+         border-top-left-radius: 5px;
+         border-top-right-radius: 5px;
+ }
+
+
  body {
          background-color:var(--purple);
  }
 
 
-
-
-
- svg {
-         position: absolute;
- }

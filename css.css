@@ -2,6 +2,8 @@
          --white: #FFFFFF;
          --purple:#e6e6fa;
          --black:#000000;
+         --gray:#f2f2f2;
+         --graywhite: #dadce0;
  }
 
 
@@ -31,7 +33,7 @@
          position: relative;
          display: flex;
          justify-content: center;
-         border: 5px solid black;
+         border: 5px solid var(--black);
          border-radius: 50px;
          width: 459px;
          height: 660px;
@@ -68,13 +70,30 @@
 
 
  .annualplan {
-         background-color: #f2f2f2;
-         margin: 20px;
+         border: 1px solid var(--graywhite);
+         background-color: var(--gray);
+         margin-top: -15px;
+         margin-left: 20px;
+         margin-right: 20px;
          border-radius: 50px;
-         height: 70px;
+         height: 75px;
  }
+
+
  #musicicon {
          position: absolute;
-         left: 35px;
-         bottom: 30px;
+         left: 40px;
+         bottom: 11px;
+         width: 12%;
+ }
+
+
+ .price {
+         line-height: 5px;
+         padding: 1px 0px;
+ }
+
+
+ .price p {
+         font-size: 20px;
  }

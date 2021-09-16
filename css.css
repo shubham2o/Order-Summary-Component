@@ -3,5 +3,12 @@
  }
 
 
-  body {
-  }
+ body {
+         background-color: black;
+ }
+
+
+ svg {
+     position: absolute;
+     left: 50px;
+ }

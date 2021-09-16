@@ -36,9 +36,9 @@
          border: 9px solid var(--black);
          border-radius: 50px;
          width: 459px;
-         height: 660px;
+         height: 670px;
          left: 35%;
-         right: 40%;
+         right: 35%;
          top: 10px;
          background-color: var(--white);
  }
@@ -125,13 +125,39 @@
 
  .form {
          position: absolute;
-         bottom: -100px;
+         bottom: -95px;
  }
 
 
  .submit {
          padding: 20px 60px 20px 60px;
-         margin-left: 85px;
-         font-size: 18px;
+         margin-left: 75px;
+         font-size: 20px;
+         font-weight: bold;
          border-radius: 50px;
+         background-color: blue;
+         color: var(--white);
+         border: 3px solid var(--black);
+         animation-name: shadow;
+         animation-duration: 1.5s;
+         animation-iteration-count: infinite;
+ }
+
+
+ @keyframes shadow {
+         from{
+                 box-shadow: 0px 0px var(--black);
+         }
+         to {
+                 box-shadow: 8px 9px var(--black);
+                 border-top: none;
+                 border-left: none;
+         }
+ }
+
+
+ .submit:hover {
+         border: 5px solid navy;
+         animation: none;
+         cursor: pointer;
  }

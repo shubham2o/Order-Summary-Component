@@ -33,7 +33,7 @@
          position: relative;
          display: flex;
          justify-content: center;
-         border: 5px solid var(--black);
+         border: 9px solid var(--black);
          border-radius: 50px;
          width: 459px;
          height: 660px;
@@ -59,8 +59,9 @@
 
 
  #musicman {
-         border-top-left-radius: 45px;
-         border-top-right-radius: 45px;
+         border-top-left-radius: 43px;
+         border-top-right-radius: 42px;
+         width: 444px;
  }
 
 

@@ -65,3 +65,16 @@
  .content pre {
          font-size: 16px;
  }
+
+
+ .annualplan {
+         background-color: #f2f2f2;
+         margin: 20px;
+         border-radius: 50px;
+         height: 70px;
+ }
+ #musicicon {
+         position: absolute;
+         left: 35px;
+         bottom: 30px;
+ }

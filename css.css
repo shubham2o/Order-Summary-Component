@@ -56,12 +56,12 @@
  }
 
 
- .content pre {
-         font-size: 16px;
- }
-
-
  #svgtwo {
          border-top-left-radius: 45px;
          border-top-right-radius: 45px;
+ }
+
+
+ .content pre {
+         font-size: 16px;
  }

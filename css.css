@@ -3,12 +3,44 @@
  }
 
 
- body {
-         background-color: black;
+ :root {
+         --white:##FFFFFF;
+         --purple:#e6e6fa;
  }
 
 
+ .center {
+         position: relative;
+         display: flex;
+         justify-content: center;
+ }
+
+
+ .content {
+         position: absolute;
+         color: var(--white);
+         border: 5px double gray;
+         height: 420px;
+         width: 350px;
+         text-align: center;
+         padding: 5px;
+         margin-top: 200px;
+ }
+
+
+ .content pre {
+         font-size: 16px;
+ }
+
+
+ body {
+         background-color:var(--purple);
+ }
+
+
+
+
+
  svg {
-     position: absolute;
-     left: 50px;
+         position: absolute;
  }

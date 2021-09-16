@@ -1,5 +1,6 @@
- body {
-         background-color:var(--purple);
+ :root {
+         --white:##FFFFFF;
+         --purple:#e6e6fa;
  }
 
 
@@ -8,9 +9,20 @@
  }
 
 
- :root {
-         --white:##FFFFFF;
-         --purple:#e6e6fa;
+ body {
+         background-color:var(--purple);
+ }
+
+
+ .top {
+         position: relative;
+         display: flex;
+         justify-content: center;
+ }
+
+
+ .svgone {
+         position: absolute;
  }
 
 
@@ -35,18 +47,6 @@
 
  .content pre {
          font-size: 16px;
- }
-
-
- .top {
-         position: relative;
-         display: flex;
-         justify-content: center;
- }
-
-
- .svgone {
-         position: absolute;
  }
 
 

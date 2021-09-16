@@ -1,3 +1,8 @@
+ body {
+         background-color:var(--purple);
+ }
+
+
  * {
          box-sizing: border-box;
  }
@@ -19,12 +24,12 @@
  .content {
          position: absolute;
          color: var(--white);
-         border: 6px double darkgray;
-         border-radius: 10px;
+         border: 5px solid black;
+         border-radius: 50px;
          height: 680px;
-         width: 460px;
+         width: 459px;
          text-align: center;
-         margin-top: 10px;
+         background-color: var(--purple);
  }
 
 
@@ -46,14 +51,6 @@
 
 
  .svgtwo {
-         border-top-left-radius: 5px;
-         border-top-right-radius: 5px;
-         position: relative;
+         border-top-left-radius: 45px;
+         border-top-right-radius: 45px;
  }
-
-
- body {
-         background-color:var(--purple);
- }
-
-

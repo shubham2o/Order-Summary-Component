@@ -80,6 +80,9 @@
  }
 
 
+ .annualplan:hover {
+         border: 1px solid var(--black);
+ }
  #musicicon {
          position: absolute;
          left: 40px;
@@ -90,7 +93,6 @@
 
  .price {
          line-height: 5px;
-         padding: 1px 0px;
  }
 
 

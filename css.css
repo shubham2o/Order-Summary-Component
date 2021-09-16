@@ -1,6 +1,7 @@
  :root {
          --white: #FFFFFF;
          --purple:#e6e6fa;
+         --black:#000000;
  }
 
 
@@ -30,18 +31,23 @@
          position: relative;
          display: flex;
          justify-content: center;
+         border: 5px solid black;
+         border-radius: 50px;
+         width: 459px;
+         height: 660px;
+         background-color: var(--white);
+ }
+
+
+ .center:hover {
+         box-shadow: 5px 5px black;
  }
 
 
  .content {
          position: absolute;
-         color: black;
-         border: 5px solid black;
-         border-radius: 50px;
-         height: 680px;
-         width: 459px;
+         color: var(--black);
          text-align: center;
-         background-color: var(--white);
  }
 
 
@@ -50,8 +56,11 @@
  }
 
 
- .svgtwo {
+ #svgtwo {
          border-top-left-radius: 45px;
          border-top-right-radius: 45px;
  }
+
+
+
 

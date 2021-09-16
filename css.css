@@ -33,6 +33,13 @@
  }
 
 
+ .top {
+         position: relative;
+         display: flex;
+         justify-content: center;
+ }
+
+
  .svgone {
          position: absolute;
  }
@@ -41,6 +48,7 @@
  .svgtwo {
          border-top-left-radius: 5px;
          border-top-right-radius: 5px;
+         position: relative;
  }
 
 

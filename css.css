@@ -175,6 +175,10 @@
          text-shadow: 1px 1px var(--white);
          box-shadow: 8px 9px var(--black);
  }
+ .paymentbutton:active {
+         box-shadow: none;
+         border: none;
+ }
 
 
  .cancelbutton {
@@ -197,4 +201,8 @@
          border-right: none;
          cursor: pointer;
          box-shadow: 8px 9px var(--black);
+ }
+ .cancelbutton:active {
+         box-shadow: none;
+         border: none;
  }

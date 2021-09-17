@@ -142,10 +142,10 @@
          padding: 20px 60px;
          margin-left: 75px;
          font-size: 20px;
+         border: 3px solid var(--black);
          border-radius: 50px;
          background-color: blue;
          color: var(--white);
-         border: 3px solid var(--black);
          animation-name: shadow;
          animation-duration: 1.5s;
          animation-iteration-count: infinite;
@@ -166,6 +166,9 @@
 
  .paymentbutton:hover {
          border: 3px solid var(--black);
+         border-left: none;
+         border-right: none;
+         border-top: none;
          animation: none;
          cursor: pointer;
          font-weight: bold;
@@ -178,10 +181,10 @@
          padding: 18px 40px; 
          margin-left: 75px;
          font-size: 20px;
+         border: 1px solid var(--graywhite);
          border-radius: 50px;
          background-color: var(--gray);
          color: var(--black);
-         border: 1px solid var(--graywhite);
  }
 
 
@@ -189,6 +192,9 @@
          font-weight: bold;
          text-shadow: 1px 1px var(--black);
          border: 1px solid var(--black);
+         border-left: none;
+         border-top: none;
+         border-right: none;
          cursor: pointer;
          box-shadow: 8px 9px var(--black);
  }

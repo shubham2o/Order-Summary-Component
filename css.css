@@ -95,12 +95,20 @@
 
 
  .price {
-         line-height: 6px;
+         line-height: 2px;
+ }
+
+
+ .price hr {
+         margin-top: -5px;
+         width: 50px;
+         border-top: 4px dotted var(--graywhite);
  }
 
 
  .price p {
          font-size: 20px;
+         margin-top: 15px;
  }
 
 
@@ -110,13 +118,14 @@
          bottom: 35px;
          font-size: 19px;
          text-decoration: none;
-         color: navy;
+         color: blue;
          font-weight: bold;
  }
 
 
  .price a:hover {
          text-decoration: underline;
+         color: navy;
  }
  .price a:active {
          color: red;
